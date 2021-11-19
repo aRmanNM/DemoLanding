@@ -1,0 +1,92 @@
+/*
+    default values
+    ----------------------
+
+    font family         : yekan
+
+    greenish blue       : #34c6d3 (buttons, icons, links, lines, bckgrounds)
+    steel grey          : #41464b (headings)
+    blue                : #64707b (paragraphs)
+    white               : #fff (text with black backgrounds)
+    black               : #000 (text with white backgrounds)
+    
+*/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: yekan, sans-serif;
+    color: #41464b
+}
+
+/*
+    home
+    
+*/
+
+#home {
+    height: 100%;
+}
+
+#home-cover {
+    height: 100%;
+    background-image: url("../img/home-cover-edited.jpg");
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    /*text-align: center;*/
+}
+
+#home-heading h3 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 400;
+    margin: 20px 0 20px 0;
+}
+
+/*
+    paralax (generic)
+    ----------------------
+*/
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*
+    buttons (generic)
+    ----------------------
+*/
+
+.btn-general {
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color: #fff;
+    color: #41464b;
+}
