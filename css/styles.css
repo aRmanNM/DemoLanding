@@ -22,6 +22,17 @@ body {
     color: #41464b
 }
 
+p {
+    color: #64707b;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h3 {
+    color: #41464b;
+    text-transform: uppercase;
+}
+
 /*
     home
     
@@ -51,7 +62,7 @@ body {
 #home-heading h3 {
     color: #fff;
     font-size: 45px;
-    font-weight: 400;
+    font-weight: 700;
     margin: 20px 0 20px 0;
 }
 
@@ -111,4 +122,64 @@ body {
 
 #home-btn {
     animation-delay: 1s;
+}
+
+/*
+    content (generic)
+    ----------------------
+*/
+.content-box {
+    padding: 60px 0 60px 0;
+
+}
+
+.content-title h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto 30px auto;
+    /* center horiz */
+}
+
+/*
+    services
+    ----------------------
+*/
+.service-item {
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.service-item-icon i {
+    color: #34c6d3;
+    float: right;
+    padding: 15px;
+    margin-left: 25px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+
+.service-item:hover .service-item-icon i {
+    color: #fff;
+    background-color: #34c6d3;
+}
+
+.service-item-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+.service-item-description p {
+    margin: 0;
+    padding-right: 100px;
 }
