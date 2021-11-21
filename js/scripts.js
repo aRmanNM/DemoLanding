@@ -1,12 +1,12 @@
 $(function () {
-    
+
     /* 
         services
         ----------------------
-    */    
+    */
     new WOW().init();
-    
-    
+
+
     /* 
         works
         ----------------------
@@ -18,5 +18,16 @@ $(function () {
             enabled: true
         }
     });
-});
 
+    /* 
+        team
+        ----------------------
+    */
+    $('#team-members').owlCarousel({
+        items: 4,
+        autoplay: true,
+        loop: true,
+        smartSpeed: 700,
+        autoplayHoverPause: true
+    });
+});
