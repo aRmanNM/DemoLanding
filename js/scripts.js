@@ -30,4 +30,16 @@ $(function () {
         smartSpeed: 700,
         autoplayHoverPause: true
     });
+    
+    /* 
+        testimonials
+        ----------------------
+    */
+    $('#customers-testimonials').owlCarousel({
+        items: 1,
+        autoplay: true,
+        loop: true,
+        smartSpeed: 700,
+        autoplayHoverPause: true
+    });
 });
