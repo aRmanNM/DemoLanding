@@ -392,3 +392,60 @@ h4.team-member-designation {
 .testimonial-author p strong {
     display: block;
 }
+
+/*
+    pricing
+    ----------------------
+*/
+
+.pricing-box {
+    border: 3px solid #34c6d3;
+    padding: 50px 0;
+    margin: 40px 0;
+}
+
+h4.pricing-title {
+    background-color: #34c6d3;
+    color: #fff;
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+
+h3.pricing-value {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h3.pricing-value sup {
+    font-size: 28px;
+    font-weight: normal;
+    vertical-align: super;
+}
+
+ul.pricing-specs {
+    list-style: none;
+    padding-right: 0;
+    margin: 20px 0 60px 0;
+}
+
+ul.pricing-specs li p {
+    font-weight: 400;
+}
+
+.pricing-box-lg {
+    padding: 90px 0px;
+    margin: 0;
+    background-color: #34c6d3;
+}
+
+.pricing-box-lg h4.pricing-title {
+    color: #34c6d3;
+    background-color: #fff
+}
+
+.pricing-box-lg ul.pricing-specs li p {
+    color: #fff;
+}
