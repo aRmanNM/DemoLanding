@@ -449,3 +449,38 @@ ul.pricing-specs li p {
 .pricing-box-lg ul.pricing-specs li p {
     color: #fff;
 }
+
+/*
+    stats
+    ----------------------
+*/
+
+#stats-cover {
+    background-image: url(../img/stats-cover.jpg);
+}
+
+#stat .content-box {
+    background-color: rgba(0,0,0,0.8)
+}
+
+.stats-item {
+    padding: 100px 0;
+}
+
+.stats-item i {
+    color: #34c6d3;
+}
+
+.stats-item h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px; 
+}
+
+.stats-item p {
+    color: #fff;
+    font-weight: 400;
+    margin-top: 0;    
+}

@@ -42,4 +42,13 @@ $(function () {
         smartSpeed: 700,
         autoplayHoverPause: true
     });
+    
+    /* 
+        stats
+        ----------------------
+    */
+    $('.counter').counterUp({
+        delay: 10,
+        time: 3000
+    });
 });
