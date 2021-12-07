@@ -51,4 +51,16 @@ $(function () {
         delay: 10,
         time: 3000
     });
+    
+    /* 
+        client
+        ----------------------
+    */
+    $('#clients-list').owlCarousel({
+        items: 6,
+        autoplay: true,
+        loop: true,
+        smartSpeed: 700,
+        autoplayHoverPause: true
+    });
 });

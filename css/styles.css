@@ -484,3 +484,11 @@ ul.pricing-specs li p {
     font-weight: 400;
     margin-top: 0;    
 }
+
+/*
+    clients
+    ----------------------
+*/
+.client {
+    padding: 40px 0;
+}
