@@ -30,7 +30,7 @@ $(function () {
         smartSpeed: 700,
         autoplayHoverPause: true
     });
-    
+
     /* 
         testimonials
         ----------------------
@@ -42,7 +42,7 @@ $(function () {
         smartSpeed: 700,
         autoplayHoverPause: true
     });
-    
+
     /* 
         stats
         ----------------------
@@ -51,7 +51,7 @@ $(function () {
         delay: 10,
         time: 3000
     });
-    
+
     /* 
         client
         ----------------------
