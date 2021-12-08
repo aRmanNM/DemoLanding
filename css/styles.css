@@ -505,7 +505,7 @@ ul.pricing-specs li p {
 footer {
     background-color: #41464b;
     padding-top: 30px;
-    padding-bottom: 30px;
+    /*    padding-bottom: 30px;*/
     border-top: 5px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -549,4 +549,49 @@ form .form-control {
     padding: 8px 16px;
     margin-bottom: 10px;
     color: #fff
+}
+
+/*
+    footer
+    ----------------------
+*/
+
+#footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+#footer-copyright p {
+    margin: 0;
+    color: #fff;
+}
+
+#footer-menu {
+    float: right;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-right: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover {
+    color: #34c6d3;
 }
