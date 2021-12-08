@@ -117,6 +117,16 @@ h3 {
     color: #fff;
 }
 
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    padding: 3px 15px;
+    border-radius: 0;
+    display: none;
+}
+
 /*
     animate
     ----------------------
@@ -593,5 +603,67 @@ form .form-control {
 }
 
 #footer-menu a:hover {
+    color: #34c6d3;
+}
+
+/*
+    navigation
+    ----------------------
+*/
+.navbar {
+    padding: 20px 0px;
+    transition: all .5s ease-in-out;
+}
+
+.starshow-top-nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 7px 0;
+}
+
+.starshow-nav-wrapper {
+    padding: 0 85px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav > li > a {
+    color: #fff;
+    font-size: 15px;
+    /*    letter-spacing: 1px;*/
+    font-weight: 700;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    background: none;
+    color: #34c6d3;
+}
+
+.navbar-toggle {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background: #fff;
+}
+
+.navbar-collapse {
+    max-height: none !important;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.starshow-top-nav ul.navbar-nav > li.active > a {
     color: #34c6d3;
 }
