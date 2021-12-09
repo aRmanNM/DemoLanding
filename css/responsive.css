@@ -1,0 +1,165 @@
+/*
+    media queries
+    ----------------------
+*/
+
+/* large devices */
+@media (min-width: 1200px) {
+}
+
+/* medium devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* mobile menu */
+  .navbar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+  }
+
+  .navbar-nav {
+    padding: 0;
+  }
+
+  .starshow-nav-wrapper {
+    padding: 0;
+  }
+}
+
+/* small devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* mobile menu */
+  .navbar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+  }
+
+  .navbar-nav {
+    padding: 0;
+  }
+
+  .starshow-nav-wrapper {
+    padding: 0;
+  }
+
+  /* remove diagonal shape - about */
+  #about-bg-diagonal {
+    border-right: 0;
+    border-top: 0;
+    width: 100%;
+    height: 350px;
+  }
+
+  #about-content-box {
+    width: 100%;
+    height: 350px;
+  }
+
+  /* stats */
+  .stats-item {
+    padding: 20px 0;
+  }
+
+  /* footer */
+  #footer-copyright {
+    text-align: center;
+  }
+}
+
+/* extra small devices */
+@media (max-width: 767px) {
+  /* mobile menu */
+  .navbar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+  }
+
+  .navbar-nav {
+    padding: 0;
+  }
+
+  .starshow-nav-wrapper {
+    padding: 0;
+  }
+
+  /* home */
+  #home-heading h3 {
+    font-size: 24px;
+  }
+
+  /* buttons */
+  .btn-general {
+    padding: 6px 22px 6px 22px;
+    font-size: 14px;
+  }
+
+  /* remove diagonal shape - about */
+  #about-bg-diagonal {
+    border-right: 0;
+    border-top: 0;
+    width: 100%;
+    height: 350px;
+  }
+
+  #about-content-box {
+    width: 100%;
+    height: 350px;
+  }
+
+  /* work */
+  .img-wrapper img {
+    min-width: 100%;
+  }
+
+  /* testimonials */
+  .testimonial blockquote {
+    padding: 6px 50px;
+  }
+  .testimonial blockquote:before {
+    left: 10px;
+  }
+  .testimonial blockquote:after {
+    right: 10px;
+  }
+  .testimonial blockquote p {
+    font-size: 14px;
+  }
+
+  /* stats */
+  .stats-item {
+    padding: 20px 0;
+  }
+
+  /* footer */
+  #footer-copyright {
+    text-align: center;
+  }
+}
+
+/* extra small devices */
+@media (max-width: 480px) {
+  /* about */
+  #about-content-box {
+    margin-top: 40px;
+    width: 100%;
+    height: 450px;
+  }
+}
+
+/* extra small devices */
+@media (max-width: 320px) {
+  /* services */
+  .service-item-icon i {
+    width: 58px;
+    height: 58px;
+    padding: 7px;
+  }
+  .service.item.title h3 {
+    font-size: 17px;
+  }
+
+  /* about */
+  #about-content-box {
+    margin-top: 40px;
+    width: 100%;
+    height: 400px;
+  }
+}

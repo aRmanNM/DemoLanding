@@ -1,780 +1,1012 @@
 <!DOCTYPE html>
 <!-- setting lang in html tag triggers google to prompt for translation -->
 <html lang="fa" dir="rtl">
-
-<head>
-
+  <head>
     <!-- required meta tags -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- title -->
     <title>استارشو</title>
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="shortcut icon" href="img/favicon.png" />
 
     <!-- font -->
     <!-- from fontserver.ir -->
-    <link rel="preconnect" href="//fdn.fontcdn.ir">
-    <link rel="preconnect" href="//v1.fontapi.ir">
-    <link href="https://v1.fontapi.ir/css/Yekan" rel="stylesheet">
+    <link rel="preconnect" href="//fdn.fontcdn.ir" />
+    <link rel="preconnect" href="//v1.fontapi.ir" />
+    <link href="https://v1.fontapi.ir/css/Yekan" rel="stylesheet" />
 
     <!--font-awesome    -->
-    <link href="./css/font-awesome/css/all.min.css" rel="stylesheet">
+    <link href="./css/font-awesome/css/all.min.css" rel="stylesheet" />
 
     <!--bootstrap css-->
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css" />
 
     <!--animate css-->
-    <link rel="stylesheet" href="./css/animate/animate.min.css">
+    <link rel="stylesheet" href="./css/animate/animate.min.css" />
 
     <!--magnific popup-->
-    <link rel="stylesheet" href="./css/magnific/magnific-popup.css">
+    <link rel="stylesheet" href="./css/magnific/magnific-popup.css" />
 
     <!--owl-carousel-->
-    <link rel="stylesheet" href="./css/owl-carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="./css/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/owl-carousel/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="./css/owl-carousel/owl.theme.default.min.css"
+    />
 
     <!--styles-->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
 
-</head>
+    <!-- responsive -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
 
-<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="100">
-
+  <body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="100">
     <header>
-        <nav class="navbar navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
-                <div class="starshow-nav-wrapper">
-                    <div class="navbar-header">
+      <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+          <div class="starshow-nav-wrapper">
+            <div class="navbar-header">
+              <button
+                class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#starshow-menu"
+                type="button"
+              >
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
 
-                        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#starshow-menu" type="button">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-
-                        <a class="navbar-brand" href="#home">
-                            <img src="./img/logo.jpg" alt="استارشو">
-                        </a>
-                    </div>
-                    <div id="starshow-menu" class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a class="smooth-scroll" href="#home">خانه</a></li>
-                            <li><a class="smooth-scroll" href="#services">خدمات</a></li>
-                            <li><a class="smooth-scroll" href="#about">درباره ما</a></li>
-                            <li><a class="smooth-scroll" href="#work">اقدامات</a></li>
-                            <li><a class="smooth-scroll" href="#team">تیم ما</a></li>
-                            <li><a class="smooth-scroll" href="#testimonials">دیگران</a></li>
-                            <li><a class="smooth-scroll" href="#pricing">هزینه</a></li>
-                            <li><a class="smooth-scroll" href="#stats">آمار</a></li>
-                            <li><a class="smooth-scroll" href="#client">مشتریان</a></li>
-                            <li><a class="smooth-scroll" href="#contact">ارتباط با ما</a></li>
-                        </ul>
-                    </div>
-                </div>
+              <a class="navbar-brand" href="#home">
+                <img src="./img/logo.jpg" alt="استارشو" />
+              </a>
             </div>
-        </nav>
+            <div id="starshow-menu" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a class="smooth-scroll" href="#home">خانه</a></li>
+                <li><a class="smooth-scroll" href="#services">خدمات</a></li>
+                <li><a class="smooth-scroll" href="#about">درباره ما</a></li>
+                <li><a class="smooth-scroll" href="#work">اقدامات</a></li>
+                <li><a class="smooth-scroll" href="#team">تیم ما</a></li>
+                <li>
+                  <a class="smooth-scroll" href="#testimonials">دیگران</a>
+                </li>
+                <li><a class="smooth-scroll" href="#pricing">هزینه</a></li>
+                <li><a class="smooth-scroll" href="#stats">آمار</a></li>
+                <li><a class="smooth-scroll" href="#client">مشتریان</a></li>
+                <li>
+                  <a class="smooth-scroll" href="#contact">ارتباط با ما</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!--home-->
     <section id="home">
-        <div id="home-cover" class="bg-parallax animated fadeIn">
-            <div id="home-content-box">
-                <div id="home-content-box-inner" class="text-center">
-                    <div id="home-heading" class="animated zoomIn">
-                        <h3>استارشو<br> اپلیکیشن مهارت های ارتباطی</h3>
-                    </div>
-                    <div id="home-btn" class="animated zoomIn">
-                        <a href="#work" class="smooth-scroll btn btn-lg btn-general btn-white" role="button" title="View Our Work">قابلیت ها</a>
-                    </div>
-                </div>
+      <div id="home-cover" class="bg-parallax animated fadeIn">
+        <div id="home-content-box">
+          <div id="home-content-box-inner" class="text-center">
+            <div id="home-heading" class="animated zoomIn">
+              <h3>
+                استارشو<br />
+                اپلیکیشن مهارت های ارتباطی
+              </h3>
             </div>
+            <div id="home-btn" class="animated zoomIn">
+              <a
+                href="#work"
+                class="smooth-scroll btn btn-lg btn-general btn-white"
+                role="button"
+                title="View Our Work"
+                >قابلیت ها</a
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!--services-->
     <section id="services">
-        <div class="content-box">
-            <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                <h3>امکانات</h3>
-                <div class="content-title-underline">
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                    <div class="col-md-4">
-                        <div class="service-item">
-                            <div class="service-item-icon">
-                                <i class="fa fa-music fa-3x"></i>
-                            </div>
-                            <div class="service-item-title">
-                                <h3>فایل صوتی</h3>
-                            </div>
-                            <div class="service-item-description">
-                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service-item">
-                            <div class="service-item-icon">
-                                <i class="fa fa-music fa-3x"></i>
-                            </div>
-                            <div class="service-item-title">
-                                <h3>فایل صوتی</h3>
-                            </div>
-                            <div class="service-item-description">
-                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service-item">
-                            <div class="service-item-icon">
-                                <i class="fa fa-music fa-3x"></i>
-                            </div>
-                            <div class="service-item-title">
-                                <h3>فایل صوتی</h3>
-                            </div>
-                            <div class="service-item-description">
-                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="service-item">
-                            <div class="service-item-icon">
-                                <i class="fa fa-music fa-3x"></i>
-                            </div>
-                            <div class="service-item-title">
-                                <h3>فایل صوتی</h3>
-                            </div>
-                            <div class="service-item-description">
-                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service-item">
-                            <div class="service-item-icon">
-                                <i class="fa fa-music fa-3x"></i>
-                            </div>
-                            <div class="service-item-title">
-                                <h3>فایل صوتی</h3>
-                            </div>
-                            <div class="service-item-description">
-                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service-item">
-                            <div class="service-item-icon">
-                                <i class="fa fa-music fa-3x"></i>
-                            </div>
-                            <div class="service-item-title">
-                                <h3>فایل صوتی</h3>
-                            </div>
-                            <div class="service-item-description">
-                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="content-box">
+        <div
+          class="content-title wow fadeInDown"
+          data-wow-duration="1s"
+          data-wow-delay=".5s"
+        >
+          <h3>امکانات</h3>
+          <div class="content-title-underline"></div>
         </div>
+
+        <div class="container">
+          <div
+            class="row wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay=".5s"
+          >
+            <div class="col-md-4 col-sm-6">
+              <div class="service-item">
+                <div class="service-item-icon">
+                  <i class="fa fa-music fa-3x"></i>
+                </div>
+                <div class="service-item-title">
+                  <h3>فایل صوتی</h3>
+                </div>
+                <div class="service-item-description">
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service-item">
+                <div class="service-item-icon">
+                  <i class="fa fa-music fa-3x"></i>
+                </div>
+                <div class="service-item-title">
+                  <h3>فایل صوتی</h3>
+                </div>
+                <div class="service-item-description">
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service-item">
+                <div class="service-item-icon">
+                  <i class="fa fa-music fa-3x"></i>
+                </div>
+                <div class="service-item-title">
+                  <h3>فایل صوتی</h3>
+                </div>
+                <div class="service-item-description">
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+              <div class="service-item">
+                <div class="service-item-icon">
+                  <i class="fa fa-music fa-3x"></i>
+                </div>
+                <div class="service-item-title">
+                  <h3>فایل صوتی</h3>
+                </div>
+                <div class="service-item-description">
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service-item">
+                <div class="service-item-icon">
+                  <i class="fa fa-music fa-3x"></i>
+                </div>
+                <div class="service-item-title">
+                  <h3>فایل صوتی</h3>
+                </div>
+                <div class="service-item-description">
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service-item">
+                <div class="service-item-icon">
+                  <i class="fa fa-music fa-3x"></i>
+                </div>
+                <div class="service-item-title">
+                  <h3>فایل صوتی</h3>
+                </div>
+                <div class="service-item-description">
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--about-->
     <section id="about">
-        <div id="about-bg-diagonal" class="bg-parallax">
-
-        </div>
-        <div class="container">
-            <div class="row">
-                <div id="about-col" class="col-md-4">
-                    <div id="about-content-box">
-                        <div id="about-content-box-outer">
-                            <div id="about-content-box-inner">
-                                <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                                    <h3>درباره استارشو</h3>
-                                    <div class="content-title-underline">
-                                    </div>
-                                </div>
-                                <div id="about-description" class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>
-                                </div>
-                                <div id="about-btn" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                    <a class="smooth-scroll btn btn-lg btn-general btn-blue" href="#work" role="button">کارهای ما</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div id="about-bg-diagonal" class="bg-parallax"></div>
+      <div class="container">
+        <div class="row">
+          <div id="about-col" class="col-md-4">
+            <div id="about-content-box">
+              <div id="about-content-box-outer">
+                <div id="about-content-box-inner">
+                  <div
+                    class="content-title wow fadeInDown"
+                    data-wow-duration="1s"
+                    data-wow-delay=".5s"
+                  >
+                    <h3>درباره استارشو</h3>
+                    <div class="content-title-underline"></div>
+                  </div>
+                  <div
+                    id="about-description"
+                    class="wow animated fadeInDown"
+                    data-wow-duration="1s"
+                    data-wow-delay=".5s"
+                  >
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+                      شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف
+                      بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                      درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                      طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+                      ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی
+                      ایجاد کرد.
+                    </p>
+                  </div>
+                  <div
+                    id="about-btn"
+                    class="wow animated fadeInUp"
+                    data-wow-duration="1s"
+                    data-wow-delay=".5s"
+                  >
+                    <a
+                      class="smooth-scroll btn btn-lg btn-general btn-blue"
+                      href="#work"
+                      role="button"
+                      >کارهای ما</a
+                    >
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!--work-->
     <section id="work">
-        <div class="content-box">
-            <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                <h3>کارهای ما</h3>
-                <div class="content-title-underline">
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row no-gutters wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                    <div class="col-md-3">
-                        <div class="img-wrapper">
-                            <a href="./img/work.jpg" title="توضحات این عکس">
-                                <img src="img/work.jpg" class="img-responsive" alt="کار">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="img-wrapper">
-                            <a href="./img/work.jpg" title="توضحات این عکس">
-                                <img src="img/work.jpg" class="img-responsive" alt="کار">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="img-wrapper">
-                            <a href="./img/work.jpg" title="توضحات این عکس">
-                                <img src="img/work.jpg" class="img-responsive" alt="کار">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="img-wrapper">
-                            <a href="./img/work.jpg" title="توضحات این عکس">
-                                <img src="img/work.jpg" class="img-responsive" alt="کار">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="img-wrapper">
-                            <a href="./img/work.jpg" title="توضحات این عکس">
-                                <img src="img/work.jpg" class="img-responsive" alt="کار">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="img-wrapper">
-                            <a href="./img/work.jpg" title="توضحات این عکس">
-                                <img src="img/work.jpg" class="img-responsive" alt="کار">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="img-wrapper">
-                            <a href="./img/work.jpg" title="توضحات این عکس">
-                                <img src="img/work.jpg" class="img-responsive" alt="کار">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="img-wrapper">
-                            <a href="./img/work.jpg" title="توضحات این عکس">
-                                <img src="img/work.jpg" class="img-responsive" alt="کار">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="content-box">
+        <div
+          class="content-title wow fadeInDown"
+          data-wow-duration="1s"
+          data-wow-delay=".5s"
+        >
+          <h3>کارهای ما</h3>
+          <div class="content-title-underline"></div>
         </div>
+        <div class="container-fluid">
+          <div
+            class="row no-gutters wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay=".5s"
+          >
+            <div class="col-md-3 col-sm-4">
+              <div class="img-wrapper">
+                <a href="./img/work.jpg" title="توضحات این عکس">
+                  <img src="img/work.jpg" class="img-responsive" alt="کار" />
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="img-wrapper">
+                <a href="./img/work.jpg" title="توضحات این عکس">
+                  <img src="img/work.jpg" class="img-responsive" alt="کار" />
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="img-wrapper">
+                <a href="./img/work.jpg" title="توضحات این عکس">
+                  <img src="img/work.jpg" class="img-responsive" alt="کار" />
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="img-wrapper">
+                <a href="./img/work.jpg" title="توضحات این عکس">
+                  <img src="img/work.jpg" class="img-responsive" alt="کار" />
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="img-wrapper">
+                <a href="./img/work.jpg" title="توضحات این عکس">
+                  <img src="img/work.jpg" class="img-responsive" alt="کار" />
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="img-wrapper">
+                <a href="./img/work.jpg" title="توضحات این عکس">
+                  <img src="img/work.jpg" class="img-responsive" alt="کار" />
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="img-wrapper">
+                <a href="./img/work.jpg" title="توضحات این عکس">
+                  <img src="img/work.jpg" class="img-responsive" alt="کار" />
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="img-wrapper">
+                <a href="./img/work.jpg" title="توضحات این عکس">
+                  <img src="img/work.jpg" class="img-responsive" alt="کار" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--team-->
     <section id="team">
-        <div class="content-box">
-            <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                <h3>تیم استارشو</h3>
-                <div class="content-title-underline">
-                </div>
-            </div>
-            <div class="container">
-                <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                    <div class="col-md-12">
-                        <div id="team-members" class="owl-carousel owl-theme">
-                            <div class="team-member">
-                                <img src="img/work.jpg" class="img-responsive" alt="member">
-                                <div class="team-member-info text-center">
-                                    <h4 class="team-member-name">ارمان نعیمی</h4>
-                                    <h4 class="team-member-designation">توسعه دهنده</h4>
-                                    <ul class="social-list">
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="team-member">
-                                <img src="img/work.jpg" class="img-responsive" alt="member">
-                                <div class="team-member-info text-center">
-                                    <h4 class="team-member-name">ارمان نعیمی</h4>
-                                    <h4 class="team-member-designation">توسعه دهنده</h4>
-                                    <ul class="social-list">
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="team-member">
-                                <img src="img/work.jpg" class="img-responsive" alt="member">
-                                <div class="team-member-info text-center">
-                                    <h4 class="team-member-name">ارمان نعیمی</h4>
-                                    <h4 class="team-member-designation">توسعه دهنده</h4>
-                                    <ul class="social-list">
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="team-member">
-                                <img src="img/work.jpg" class="img-responsive" alt="member">
-                                <div class="team-member-info text-center">
-                                    <h4 class="team-member-name">ارمان نعیمی</h4>
-                                    <h4 class="team-member-designation">توسعه دهنده</h4>
-                                    <ul class="social-list">
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="team-member">
-                                <img src="img/work.jpg" class="img-responsive" alt="member">
-                                <div class="team-member-info text-center">
-                                    <h4 class="team-member-name">ارمان نعیمی</h4>
-                                    <h4 class="team-member-designation">توسعه دهنده</h4>
-                                    <ul class="social-list">
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="team-member">
-                                <img src="img/work.jpg" class="img-responsive" alt="member">
-                                <div class="team-member-info text-center">
-                                    <h4 class="team-member-name">ارمان نعیمی</h4>
-                                    <h4 class="team-member-designation">توسعه دهنده</h4>
-                                    <ul class="social-list">
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="social-icon icon-gray" href="#">
-                                                <i class="fa fa-music"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="content-box">
+        <div
+          class="content-title wow fadeInDown"
+          data-wow-duration="1s"
+          data-wow-delay=".5s"
+        >
+          <h3>تیم استارشو</h3>
+          <div class="content-title-underline"></div>
         </div>
+        <div class="container">
+          <div
+            class="row wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay=".5s"
+          >
+            <div class="col-md-12">
+              <div id="team-members" class="owl-carousel owl-theme">
+                <div class="team-member">
+                  <img src="img/work.jpg" class="img-responsive" alt="member" />
+                  <div class="team-member-info text-center">
+                    <h4 class="team-member-name">ارمان نعیمی</h4>
+                    <h4 class="team-member-designation">توسعه دهنده</h4>
+                    <ul class="social-list">
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="team-member">
+                  <img src="img/work.jpg" class="img-responsive" alt="member" />
+                  <div class="team-member-info text-center">
+                    <h4 class="team-member-name">ارمان نعیمی</h4>
+                    <h4 class="team-member-designation">توسعه دهنده</h4>
+                    <ul class="social-list">
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="team-member">
+                  <img src="img/work.jpg" class="img-responsive" alt="member" />
+                  <div class="team-member-info text-center">
+                    <h4 class="team-member-name">ارمان نعیمی</h4>
+                    <h4 class="team-member-designation">توسعه دهنده</h4>
+                    <ul class="social-list">
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="team-member">
+                  <img src="img/work.jpg" class="img-responsive" alt="member" />
+                  <div class="team-member-info text-center">
+                    <h4 class="team-member-name">ارمان نعیمی</h4>
+                    <h4 class="team-member-designation">توسعه دهنده</h4>
+                    <ul class="social-list">
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="team-member">
+                  <img src="img/work.jpg" class="img-responsive" alt="member" />
+                  <div class="team-member-info text-center">
+                    <h4 class="team-member-name">ارمان نعیمی</h4>
+                    <h4 class="team-member-designation">توسعه دهنده</h4>
+                    <ul class="social-list">
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="team-member">
+                  <img src="img/work.jpg" class="img-responsive" alt="member" />
+                  <div class="team-member-info text-center">
+                    <h4 class="team-member-name">ارمان نعیمی</h4>
+                    <h4 class="team-member-designation">توسعه دهنده</h4>
+                    <ul class="social-list">
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="social-icon icon-gray" href="#">
+                          <i class="fa fa-music"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--testimonials-->
     <section id="testimonials">
-        <div id="testimonials-cover" class="bg-parallax">
-            <div class="content-box">
-                <div class="content-title content-title-white wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                    <h3>مشتریان ما چی میگن</h3>
-                    <div class="content-title-underline">
+      <div id="testimonials-cover" class="bg-parallax">
+        <div class="content-box">
+          <div
+            class="content-title content-title-white wow fadeInDown"
+            data-wow-duration="1s"
+            data-wow-delay=".5s"
+          >
+            <h3>مشتریان ما چی میگن</h3>
+            <div class="content-title-underline"></div>
+          </div>
+          <div class="container">
+            <div
+              class="row wow bounceInDown"
+              data-wow-duration="1s"
+              data-wow-delay=".5s"
+            >
+              <div class="col-md-12">
+                <div
+                  id="customers-testimonials"
+                  class="text-center owl-carousel owl-theme"
+                >
+                  <div class="testimonial">
+                    <img
+                      src="img/testimonial.jpg"
+                      class="img-responsive img-circle"
+                      alt="testimonial"
+                    />
+                    <blockquote class="text-center">
+                      <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                        چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                        بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
+                        برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با
+                        هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت
+                        و سه درصد
+                      </p>
+                    </blockquote>
+                    <div class="testimonial-author">
+                      <p>
+                        <strong>ارمان نعیمی</strong>
+                        <span>توسعه دهنده</span>
+                      </p>
                     </div>
-                </div>
-                <div class="container">
-                    <div class="row wow bounceInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                        <div class="col-md-12">
-                            <div id="customers-testimonials" class="text-center owl-carousel owl-theme">
-                                <div class="testimonial">
-                                    <img src="img/testimonial.jpg" class="img-responsive img-circle" alt="testimonial">
-                                    <blockquote class="text-center">
-                                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد </p>
-                                    </blockquote>
-                                    <div class="testimonial-author">
-                                        <p>
-                                            <strong>ارمان نعیمی</strong>
-                                            <span>توسعه دهنده</span>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="testimonial">
-                                    <img src="img/testimonial.jpg" class="img-responsive img-circle" alt="testimonial">
-                                    <blockquote class="text-center">
-                                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>
-                                    </blockquote>
-                                    <div class="testimonial-author">
-                                        <p>
-                                            <strong>ارمان نعیمی</strong>
-                                            <span>توسعه دهنده</span>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="testimonial">
-                                    <img src="img/testimonial.jpg" class="img-responsive img-circle" alt="testimonial">
-                                    <blockquote class="text-center">
-                                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>
-                                    </blockquote>
-                                    <div class="testimonial-author">
-                                        <p>
-                                            <strong>ارمان نعیمی</strong>
-                                            <span>توسعه دهنده</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="testimonial">
+                    <img
+                      src="img/testimonial.jpg"
+                      class="img-responsive img-circle"
+                      alt="testimonial"
+                    />
+                    <blockquote class="text-center">
+                      <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                        چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                        بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
+                        برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با
+                        هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت
+                        و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و
+                        متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را
+                        برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ
+                        پیشرو در زبان فارسی ایجاد کرد.
+                      </p>
+                    </blockquote>
+                    <div class="testimonial-author">
+                      <p>
+                        <strong>ارمان نعیمی</strong>
+                        <span>توسعه دهنده</span>
+                      </p>
                     </div>
+                  </div>
+                  <div class="testimonial">
+                    <img
+                      src="img/testimonial.jpg"
+                      class="img-responsive img-circle"
+                      alt="testimonial"
+                    />
+                    <blockquote class="text-center">
+                      <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                        چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                        بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
+                        برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با
+                        هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت
+                        و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و
+                        متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را
+                        برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ
+                        پیشرو در زبان فارسی ایجاد کرد.
+                      </p>
+                    </blockquote>
+                    <div class="testimonial-author">
+                      <p>
+                        <strong>ارمان نعیمی</strong>
+                        <span>توسعه دهنده</span>
+                      </p>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!--pricing-->
     <section id="pricing">
-        <div class="content-box">
-            <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                <h3>پرایسینگ</h3>
-                <div class="content-title-underline">
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
-                        <div class="pricing-box text-center">
-                            <h4 class="pricing-title">پایه</h4>
-                            <h3 class="pricing-value">0<sup>$</sup></h3>
-                            <ul class="pricing-specs">
-                                <li>
-                                    <p>تمام دوره ها</p>
-                                </li>
-                                <li>
-                                    <p>تست روانشناسی</p>
-                                </li>
-                                <li>
-                                    <p>اشتراک ماهیانه</p>
-                                </li>
-                            </ul>
-                            <div class="pricing-btn">
-                                <a class="btn btn-lg btn-general btn-blue" href="#" role="button">فعال سازی</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow bounceInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                        <div class="pricing-box pricing-box-lg text-center">
-                            <h4 class="pricing-title">پایه</h4>
-                            <h3 class="pricing-value">0<sup>$</sup></h3>
-                            <ul class="pricing-specs">
-                                <li>
-                                    <p>تمام دوره ها</p>
-                                </li>
-                                <li>
-                                    <p>تست روانشناسی</p>
-                                </li>
-                                <li>
-                                    <p>اشتراک ماهیانه</p>
-                                </li>
-                            </ul>
-                            <div class="pricing-btn">
-                                <a class="btn btn-lg btn-general btn-white" href="#" role="button">فعال سازی</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
-                        <div class="pricing-box text-center">
-                            <h4 class="pricing-title">پایه</h4>
-                            <h3 class="pricing-value">0<sup>$</sup></h3>
-                            <ul class="pricing-specs">
-                                <li>
-                                    <p>تمام دوره ها</p>
-                                </li>
-                                <li>
-                                    <p>تست روانشناسی</p>
-                                </li>
-                                <li>
-                                    <p>اشتراک ماهیانه</p>
-                                </li>
-                            </ul>
-                            <div class="pricing-btn">
-                                <a class="btn btn-lg btn-general btn-blue" href="#" role="button">فعال سازی</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="content-box">
+        <div
+          class="content-title wow fadeInDown"
+          data-wow-duration="1s"
+          data-wow-delay=".5s"
+        >
+          <h3>پرایسینگ</h3>
+          <div class="content-title-underline"></div>
         </div>
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-4 wow zoomIn"
+              data-wow-duration="1s"
+              data-wow-delay=".5s"
+            >
+              <div class="pricing-box text-center">
+                <h4 class="pricing-title">پایه</h4>
+                <h3 class="pricing-value">0<sup>$</sup></h3>
+                <ul class="pricing-specs">
+                  <li>
+                    <p>تمام دوره ها</p>
+                  </li>
+                  <li>
+                    <p>تست روانشناسی</p>
+                  </li>
+                  <li>
+                    <p>اشتراک ماهیانه</p>
+                  </li>
+                </ul>
+                <div class="pricing-btn">
+                  <a
+                    class="btn btn-lg btn-general btn-blue"
+                    href="#"
+                    role="button"
+                    >فعال سازی</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-4 wow bounceInUp"
+              data-wow-duration="1s"
+              data-wow-delay=".5s"
+            >
+              <div class="pricing-box pricing-box-lg text-center">
+                <h4 class="pricing-title">پایه</h4>
+                <h3 class="pricing-value">0<sup>$</sup></h3>
+                <ul class="pricing-specs">
+                  <li>
+                    <p>تمام دوره ها</p>
+                  </li>
+                  <li>
+                    <p>تست روانشناسی</p>
+                  </li>
+                  <li>
+                    <p>اشتراک ماهیانه</p>
+                  </li>
+                </ul>
+                <div class="pricing-btn">
+                  <a
+                    class="btn btn-lg btn-general btn-white"
+                    href="#"
+                    role="button"
+                    >فعال سازی</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-4 wow zoomIn"
+              data-wow-duration="1s"
+              data-wow-delay=".5s"
+            >
+              <div class="pricing-box text-center">
+                <h4 class="pricing-title">پایه</h4>
+                <h3 class="pricing-value">0<sup>$</sup></h3>
+                <ul class="pricing-specs">
+                  <li>
+                    <p>تمام دوره ها</p>
+                  </li>
+                  <li>
+                    <p>تست روانشناسی</p>
+                  </li>
+                  <li>
+                    <p>اشتراک ماهیانه</p>
+                  </li>
+                </ul>
+                <div class="pricing-btn">
+                  <a
+                    class="btn btn-lg btn-general btn-blue"
+                    href="#"
+                    role="button"
+                    >فعال سازی</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--stats-->
     <section id="stats">
-        <div id="stats-cover" class="bg-parallax">
-            <div class="content-box">
-                <div class="content-title content-title-white wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                    <h3>آمارهای اخیر</h3>
-                    <div class="content-title-underline">
-                    </div>
+      <div id="stats-cover" class="bg-parallax">
+        <div class="content-box">
+          <div
+            class="content-title content-title-white wow fadeInDown"
+            data-wow-duration="1s"
+            data-wow-delay=".5s"
+          >
+            <h3>آمارهای اخیر</h3>
+            <div class="content-title-underline"></div>
+          </div>
+          <div class="container">
+            <div
+              class="row text-center wow bounceInLeft"
+              data-wow-duration="1s"
+              data-wow-delay=".5s"
+            >
+              <div class="col-md-3 col-sm-6">
+                <div class="stats-item">
+                  <i class="fa fa-download fa-5x"></i>
+                  <h2><span class="counter">2567</span><span>+</span></h2>
+                  <p>دانلود</p>
                 </div>
-                <div class="container">
-                    <div class="row text-center wow bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-                        <div class="col-md-3">
-                            <div class="stats-item">
-                                <i class="fa fa-download fa-5x"></i>
-                                <h2>
-                                    <span class="counter">2567</span><span>+</span>
-                                </h2>
-                                <p>دانلود</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="stats-item">
-                                <i class="fa fa-download fa-5x"></i>
-                                <h2>
-                                    <span class="counter">2567</span><span>+</span>
-                                </h2>
-                                <p>دانلود</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="stats-item">
-                                <i class="fa fa-download fa-5x"></i>
-                                <h2>
-                                    <span class="counter">2567</span><span>+</span>
-                                </h2>
-                                <p>دانلود</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="stats-item">
-                                <i class="fa fa-download fa-5x"></i>
-                                <h2>
-                                    <span class="counter">2567</span><span>+</span>
-                                </h2>
-                                <p>دانلود</p>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="stats-item">
+                  <i class="fa fa-download fa-5x"></i>
+                  <h2><span class="counter">2567</span><span>+</span></h2>
+                  <p>دانلود</p>
                 </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="stats-item">
+                  <i class="fa fa-download fa-5x"></i>
+                  <h2><span class="counter">2567</span><span>+</span></h2>
+                  <p>دانلود</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="stats-item">
+                  <i class="fa fa-download fa-5x"></i>
+                  <h2><span class="counter">2567</span><span>+</span></h2>
+                  <p>دانلود</p>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!--client-->
     <section id="client">
-        <div class="content-box">
-            <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                <h3>مشتریان ما</h3>
-                <div class="content-title-underline">
-                </div>
-            </div>
-            <div class="container">
-                <div class="row wow bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-                    <div class="col-md-12">
-                        <div id="clients-list" class="owl-carousel owl-theme">
-                            <div class="client">
-                                <img src="./img/client.jpg" alt="client" class="img-responsive">
-                            </div>
-                            <div class="client">
-                                <img src="./img/client.jpg" alt="client" class="img-responsive">
-                            </div>
-                            <div class="client">
-                                <img src="./img/client.jpg" alt="client" class="img-responsive">
-                            </div>
-                            <div class="client">
-                                <img src="./img/client.jpg" alt="client" class="img-responsive">
-                            </div>
-                            <div class="client">
-                                <img src="./img/client.jpg" alt="client" class="img-responsive">
-                            </div>
-                            <div class="client">
-                                <img src="./img/client.jpg" alt="client" class="img-responsive">
-                            </div>
-                            <div class="client">
-                                <img src="./img/client.jpg" alt="client" class="img-responsive">
-                            </div>
-                            <div class="client">
-                                <img src="./img/client.jpg" alt="client" class="img-responsive">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="content-box">
+        <div
+          class="content-title wow fadeInDown"
+          data-wow-duration="1s"
+          data-wow-delay=".5s"
+        >
+          <h3>مشتریان ما</h3>
+          <div class="content-title-underline"></div>
         </div>
+        <div class="container">
+          <div
+            class="row wow bounceInLeft"
+            data-wow-duration="1s"
+            data-wow-delay=".5s"
+          >
+            <div class="col-md-12">
+              <div id="clients-list" class="owl-carousel owl-theme">
+                <div class="client">
+                  <img
+                    src="./img/client.jpg"
+                    alt="client"
+                    class="img-responsive"
+                  />
+                </div>
+                <div class="client">
+                  <img
+                    src="./img/client.jpg"
+                    alt="client"
+                    class="img-responsive"
+                  />
+                </div>
+                <div class="client">
+                  <img
+                    src="./img/client.jpg"
+                    alt="client"
+                    class="img-responsive"
+                  />
+                </div>
+                <div class="client">
+                  <img
+                    src="./img/client.jpg"
+                    alt="client"
+                    class="img-responsive"
+                  />
+                </div>
+                <div class="client">
+                  <img
+                    src="./img/client.jpg"
+                    alt="client"
+                    class="img-responsive"
+                  />
+                </div>
+                <div class="client">
+                  <img
+                    src="./img/client.jpg"
+                    alt="client"
+                    class="img-responsive"
+                  />
+                </div>
+                <div class="client">
+                  <img
+                    src="./img/client.jpg"
+                    alt="client"
+                    class="img-responsive"
+                  />
+                </div>
+                <div class="client">
+                  <img
+                    src="./img/client.jpg"
+                    alt="client"
+                    class="img-responsive"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer>
-        <div id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div id="contact-left">
-                            <h3>با ما در ارتباط باشید</h3>
-                            <form action="#">
-                                <input type="text" name="full-name" placeholder="نام و نام خانوادگی" class="form-control">
-                                <input type="text" name="email" placeholder="ایمیل" class="form-control">
-                                <textarea name="message" rows="5" placeholder="متن پیام" class="form-control"></textarea>
-                                <div id="send-btn">
-                                    <a class="btn btn-lg btn-general btn-white" href="#" role="button">ارسال</a>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div id="contact-right">
-                            <h3>استارشو</h3>
-                            <p>استارشو بهترین نقطه برای رسیدن به اهداف آینده شماست</p>
-
-                            <div id="contact-info">
-                                <address>
-                                    <strong>ادرس شرکت: </strong><br>
-                                    <p>فلان نقطه ایران - فلان خیابان<br>فلان کوچه -فلان ساختمان - واحد ۱۲۳</p>
-                                </address>
-                                <div id="phone-fax-email">
-                                    <p>
-                                        <strong>تلفن</strong><span>+۹۸۱۲۳۴۵۶۷۸۹۱۰</span><br>
-                                        <strong>فکس</strong><span>+۹۸۱۲۳۵۶۷۳۴</span><br>
-                                        <strong>ایمیل</strong><span>info@starshow.ir</span><br>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <ul class="social-list">
-                                <li>
-                                    <a class="social-icon icon-white" href="#">
-                                        <i class="fa fa-music"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="social-icon icon-white" href="#">
-                                        <i class="fa fa-music"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="social-icon icon-white" href="#">
-                                        <i class="fa fa-music"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="social-icon icon-white" href="#">
-                                        <i class="fa fa-music"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div id="contact-left">
+                <h3>با ما در ارتباط باشید</h3>
+                <form action="#">
+                  <input
+                    type="text"
+                    name="full-name"
+                    placeholder="نام و نام خانوادگی"
+                    class="form-control"
+                  />
+                  <input
+                    type="text"
+                    name="email"
+                    placeholder="ایمیل"
+                    class="form-control"
+                  />
+                  <textarea
+                    name="message"
+                    rows="5"
+                    placeholder="متن پیام"
+                    class="form-control"
+                  ></textarea>
+                  <div id="send-btn">
+                    <a
+                      class="btn btn-lg btn-general btn-white"
+                      href="#"
+                      role="button"
+                      >ارسال</a
+                    >
+                  </div>
+                </form>
+              </div>
             </div>
-        </div>
+            <div class="col-md-6">
+              <div id="contact-right">
+                <h3>استارشو</h3>
+                <p>استارشو بهترین نقطه برای رسیدن به اهداف آینده شماست</p>
 
-        <div id="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div id="footer-menu">
-                            <ul>
-                                <li><a class="smooth-scroll" href="#home">خانه</a></li>
-                                <li><a class="smooth-scroll" href="#services">خدمات</a></li>
-                                <li><a class="smooth-scroll" href="#work">اقدامات</a></li>
-                                <li><a class="smooth-scroll" href="#team">درباره ما</a></li>
-                                <li><a class="smooth-scroll" href="#testimonials">دیگران</a></li>
-                                <li><a class="smooth-scroll" href="#pricing">قیمت</a></li>
-                                <li><a class="smooth-scroll" href="#stats">آمارها</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div id="footer-copyright">
-                            <p>تمامی حقوق این وبسایت متعلق به شرکت فلان است</p>
-                        </div>
-                    </div>
+                <div id="contact-info">
+                  <address>
+                    <strong>ادرس شرکت: </strong><br />
+                    <p>
+                      فلان نقطه ایران - فلان خیابان<br />فلان کوچه -فلان ساختمان
+                      - واحد ۱۲۳
+                    </p>
+                  </address>
+                  <div id="phone-fax-email">
+                    <p>
+                      <strong>تلفن</strong><span>+۹۸۱۲۳۴۵۶۷۸۹۱۰</span><br />
+                      <strong>فکس</strong><span>+۹۸۱۲۳۵۶۷۳۴</span><br />
+                      <strong>ایمیل</strong><span>info@starshow.ir</span><br />
+                    </p>
+                  </div>
                 </div>
-            </div>
-        </div>
 
-        <a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll" role="button" title="خانه">
-            <i class="fa fa-angle-up"></i>
-        </a>
+                <ul class="social-list">
+                  <li>
+                    <a class="social-icon icon-white" href="#">
+                      <i class="fa fa-music"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="social-icon icon-white" href="#">
+                      <i class="fa fa-music"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="social-icon icon-white" href="#">
+                      <i class="fa fa-music"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="social-icon icon-white" href="#">
+                      <i class="fa fa-music"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 hidden-sm hidden-xs">
+              <div id="footer-menu">
+                <ul>
+                  <li><a class="smooth-scroll" href="#home">خانه</a></li>
+                  <li><a class="smooth-scroll" href="#services">خدمات</a></li>
+                  <li><a class="smooth-scroll" href="#work">اقدامات</a></li>
+                  <li><a class="smooth-scroll" href="#team">درباره ما</a></li>
+                  <li>
+                    <a class="smooth-scroll" href="#testimonials">دیگران</a>
+                  </li>
+                  <li><a class="smooth-scroll" href="#pricing">قیمت</a></li>
+                  <li><a class="smooth-scroll" href="#stats">آمارها</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div id="footer-copyright">
+                <p>تمامی حقوق این وبسایت متعلق به شرکت فلان است</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a
+        href="#home"
+        id="back-to-top"
+        class="btn btn-sm btn-blue btn-back-to-top smooth-scroll"
+        role="button"
+        title="خانه"
+      >
+        <i class="fa fa-angle-up"></i>
+      </a>
     </footer>
 
     <!--emmet sample-->
@@ -812,13 +1044,10 @@
     <script src="js/counter/waypoints.min.js"></script>
     <script src="js/counter/counterup.min.js"></script>
 
-
     <!--easing-->
     <script src="js/easing/easing.1.3.js"></script>
 
     <!-- custom js -->
     <script src="./js/scripts.js"></script>
-
-</body>
-
+  </body>
 </html>
